@@ -25,8 +25,9 @@
   .focus .ck { opacity: .16; }
   .focus .ck.ln { opacity: 1; }
   .ruler { position: absolute; left: 0; right: 0; background: var(--hl, #FFE066); opacity: .22; pointer-events: none; border-radius: 10px; transition: top .15s, height .15s, left .15s, width .15s; }
-  rt { font-size: .45em; letter-spacing: 0; color: var(--rt, #5C7CFA); }
-  .noruby rt { display: none; }
+  rt { font-size: var(--rt, .5em); letter-spacing: 0; color: #5C7CFA; }
+  .ldg { text-align: center; font-size: 14px; color: var(--sub); background: #FFF9DB; border-radius: 999px; padding: 4px 12px; }
+  .sec2 { width: min(1100px, 100%); font-size: 18px; color: var(--sub); }
   .bar { display: flex; align-items: center; gap: 8px; justify-content: center; flex-wrap: wrap; }
   .bar button { min-width: 60px; height: 60px; border-radius: 18px; border: 3px solid var(--line); background: #fff; font-size: 24px; padding: 0 10px; }
   .bar button.on { background: var(--accent); border-color: var(--accent); color: #fff; }
